@@ -38,7 +38,6 @@ module.exports = {
       value,
       ong_id
     });
-    console.log('Criado registro da ONG: ' + ong_id + ' ID do Caso: ' + id);
     return response.json({ id })
   },
 
