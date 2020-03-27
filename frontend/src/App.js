@@ -1,8 +1,9 @@
 import React from 'react';
+import Header from './Header';
 
 function App() {
   return (
-    <h1>Hello OminiStack11</h1>
+    <Header/>
   );
 }
 
