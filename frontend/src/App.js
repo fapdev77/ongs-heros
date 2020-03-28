@@ -1,9 +1,14 @@
 import React from 'react';
-import Header from './Header';
+// import do css global
+import './global.css';
+// import do componemte Logon 
+// nao preciso especificar o arquivo index.js pois ele é o padrao que o react sempre usa.
+
+import Routes from './routes';
 
 function App() {
   return (
-    <Header/>
+    <Routes/>
   );
 }
 
